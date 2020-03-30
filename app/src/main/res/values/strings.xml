@@ -2,4 +2,6 @@
     <string name="app_name">Education</string>
     <string name="textview">TextView</string>
     <string name="next"><![CDATA[Next>>]]></string>
+    <string name="name">name</string>
+    <string name="age">age</string>
 </resources>

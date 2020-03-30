@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_1">
+    tools:context=".Activity_2">
 
     <Button
         android:layout_width="wrap_content"
@@ -12,38 +12,28 @@
         android:layout_marginEnd="@dimen/def"
         android:layout_marginBottom="@dimen/def"
         android:text="@string/next"
-        android:onClick="onClick_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/name_show"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="556dp"
-        android:text="@string/textview"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/ET_name"
-        android:hint="@string/name"
-        android:layout_width="@dimen/EditText_length"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/def"
         android:layout_marginTop="@dimen/def"
+        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/ET_age"
-        android:layout_width="@dimen/EditText_length"
+    <TextView
+        android:id="@+id/age_show"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginTop="@dimen/def"
-        android:hint="@string/age"
-        app:layout_constraintStart_toStartOf="@+id/ET_name"
-        app:layout_constraintTop_toBottomOf="@+id/ET_name" />
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/name_show"
+        app:layout_constraintTop_toBottomOf="@+id/name_show" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
